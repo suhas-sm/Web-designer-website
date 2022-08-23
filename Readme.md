@@ -9,7 +9,13 @@ Hope you like my project !! it works good in laptop screen if you are using desk
   - CSS Flex box
 
 ## 🚩 Demo
+### Laptop View
 ![page-img](./images/page_img.PNG)
+
+### Mobile Screen View
+![responsive_screen-1](./images/responsive_1.PNG)
+
+![responsive_screen-2](./images/responsive_2.PNG)
 
 Clone the project
 
