@@ -1,0 +1,143 @@
+
+body{
+    background:url(/images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    margin: 2rem 7rem;
+    height: 100%;
+    font-family: Roboto;
+}
+
+.main-div{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+@media only screen and (max-width:768px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro-section{
+        flex-direction: column;
+    }
+    .imgs-div{
+        order: -5;
+        width: 100vw;
+        margin-left: -200px;
+       
+        
+    }
+    .imgs-div img{
+        width: 50px;
+        text-align: center;
+    }
+    .imgs-div img:last-child{
+        width: 500px;
+        text-align: center;
+    }
+    .left-section{
+        width: 100%;
+        margin-top: 500px;
+        margin-left: -200px;
+    }
+    .left-section h4{
+        width: 100vw;
+    }
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+    margin-top: 30px;
+}
+.nav-items{
+    display:flex;
+    margin-top: 30px;
+    
+
+}
+
+.nav-items h5{
+    margin-left: 50px;
+    color: #333B7F;
+}
+nav button{
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #FF8ADC;
+    color: #ffffff;
+}
+
+.intro-section{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+
+}
+.left-section{
+    font-family: Roboto;
+    
+    width: 40%;
+    
+
+}
+
+.left-section h1{
+    font-size: 80px;
+    color: #3E4794;
+}
+
+.left-section h4{
+    color: #7C7F9B;
+    line-height: 30px;
+    padding-right: 90px;
+    
+}
+
+.left-section button{
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #965CF2 , #B56AEC,#FF8ADC);
+    padding: 10px 30px;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 30px;
+    
+}
+
+.imgs-div{
+    
+    width: 60%;
+    
+    
+    
+    
+}
+
+.vector-img{
+    position: absolute;
+    bottom: 0;
+    
+}
+.vector-dot{
+    position: absolute;
+    margin-left: 50px;
+    bottom: 90px;
+}
+
+.intro-img{
+    position: absolute;
+    z-index: -1;
+
+    margin-top: 0;
+    
+  
+}
