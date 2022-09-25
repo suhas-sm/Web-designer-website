@@ -1,4 +1,4 @@
-# Web-Designer-Website [![Template Project](https://img.shields.io/badge/Technologies%20-HTML%2FCSS-brightgreen)]
+# Web-Designer-Website
 
 This is basically a one pager Template project made in HTML/CSS for an imaginary web Design Service on the internet.
 Hope you like my project !! it works good in laptop screen if you are using desktop please zoom in or out that might work .
